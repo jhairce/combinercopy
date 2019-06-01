@@ -997,7 +997,9 @@
 			if (part!="lantern") {
 				if (Weapons[uiSet[part].type][uiSet[part].id].type!="Repeater") {
 					html+='<div class="setPerk">';
-					html+='<img src="/DauntlessBuilder/assets/icons/perks/'+getPerkType(Weapons[uiSet[part].type][uiSet[part].id].perks[2].name)+'.png" class="setCellIcon"/>';
+					var iconName = getPerkType(Weapons[uiSet[part].type][uiSet[part].id].perks[2].name);
+					iconName = iconName.charAt(0).toUpperCase() + iconName.slice(1);
+					html+='<img src="/DauntlessBuilder/assets/icons/perks/'+iconName+'.png" class="setCellIcon"/>';
 					html+='<div class="setCellName">+3 '+Weapons[uiSet[part].type][uiSet[part].id].perks[2].name+'</div>';
 					html+='</div>';
 				}
