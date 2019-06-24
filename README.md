@@ -1,4 +1,4 @@
-# DauntlessCombinator
+# DauntlessCombiner
 
 Get the possible combinations that you can get given some minimum set stats.
 
@@ -13,4 +13,4 @@ Reddit: /u/MrKapoty
 
 ## Bug Report/Requests
 
-[Github Issues](https://github.com/Kapoty/DauntlessCombinator/issues)
+[Github Issues](https://github.com/Kapoty/DauntlessCombiner/issues)
