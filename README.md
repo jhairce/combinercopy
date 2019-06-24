@@ -1,6 +1,6 @@
 # DauntlessCombiner
 
-Get the possible combinations that you can get given some minimum set stats.
+Get the possible combinations that you can get given some minimum set perks.
 
 ## Assets
 
