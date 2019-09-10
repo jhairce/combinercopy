@@ -889,10 +889,10 @@
                 perks: "Aetherhunter",
                 cells: ["Power", "Utility"]
             }],
-            Repeater: [
+            Repeaters: [
             {
-                name: "Repeater",
-                type: "Repeater",
+                name: "Repeaters",
+                type: "Repeaters",
                 icon: "/assets/icons/weapons/generic/Repeaters.png",
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
@@ -6481,7 +6481,7 @@
             6: "Antique Clip",
             7: "Ironheart Landbreaker"
         },
-        "Parts:Repeater":
+        "Parts:Repeaters":
         {
             1: "Inferno Barrel",
             2: "Dawnstar Barrel",
@@ -14438,7 +14438,7 @@
                 key: "setWeaponType",
                 value: function(n)
                 {
-                    this.weaponType = n, this.maxPerks = 36, "Repeater" == n && (this.maxPerks = 33)
+                    this.weaponType = n, this.maxPerks = 36, "Repeaters" == n && (this.maxPerks = 33)
                 }
             },
             {
@@ -14529,7 +14529,7 @@
                     if (this.nPerks == this.maxPerks)
                         for (var i in e.weapons[this.weaponType] = e.weapons[this.weaponType].filter(function(e)
                             {
-                                return (null != e.perks || "Repeater" == n.weaponType) && 0 != n.perks[e.perks]
+                                return (null != e.perks || "Repeaters" == n.weaponType) && 0 != n.perks[e.perks]
                             }), e.armours) e.armours[i] = e.armours[i].filter(function(e)
                         {
                             return "Lantern" == e.type || null != e.perks && 0 != n.perks[e.perks]
