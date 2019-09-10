@@ -16096,9 +16096,9 @@
                         className: "privacy",
                         onClick: function()
                         {
-                            window.open("https://github.com/Kapoty", "_blank")
+                            window.open("https://www.tftbuilder.tk/#/", "_blank")
                         }
-                    }, "Original code by Kapoty"), r.a.createElement("div",
+                    }, "TFT Builder"), r.a.createElement("div",
                     {
                         className: "privacy",
                         onClick: function()
@@ -16184,7 +16184,7 @@
             key: "componentDidMount",
             value: function()
             {
-                this.setWeaponType("Axe"), this.addPerk("Conduit", 6), this.addPerk("Aetheric Attunement", 6), this.addPerk("Evasive Fury", 6), this.addPerk("Ragehunter", 6), this.addPerk("Overpower", 6), this.addPerk("Predator", 6)
+                this.setWeaponType("Sword"), this.addPerk("Conduit", 6), this.addPerk("Aetheric Attunement", 6), this.addPerk("Evasive Fury", 6), this.addPerk("Ragehunter", 6), this.addPerk("Overpower", 6), this.addPerk("Predator", 6)
             }
         },
         {
