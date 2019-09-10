@@ -898,7 +898,7 @@
                 cells: ["Technique", "Mobility"]
 			},	
 			{	
-			    name: "Twin Suns",
+			    name: "The Twin Suns",
                 type: "Repeaters",
                 icon: "/assets/icons/weapons/generic/TheTwinSuns.png",
                 monster: "generic",
@@ -6692,7 +6692,7 @@
             103: "Valomyr's Hope",
             104: "Valomyr's Regard",
             105: "Valomyr's Revenge",
-			106: "Twin Suns"
+			106: "The Twin Suns"
         }
     }
 }, function(n, e, t)
@@ -16178,7 +16178,7 @@
             key: "componentDidMount",
             value: function()
             {
-                this.setWeaponType("Sword"), this.addPerk("Conduit", 6), this.addPerk("Aetheric Attunement", 6), this.addPerk("Evasive Fury", 6), this.addPerk("Ragehunter", 6), this.addPerk("Overpower", 6), this.addPerk("Predator", 6)
+                this.setWeaponType("Axe")
             }
         },
         {
