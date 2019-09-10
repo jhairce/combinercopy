@@ -770,12 +770,6 @@
                 icon: "/assets/icons/weapons/generic/Repeater.png",
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
-			}	
-			{   name: "Twin Suns",
-                type: "Repeater",
-                icon: "/assets/icons/weapons/generic/TwinSuns.png",
-                monster: "generic",
-                cells: ["Technique", "Mobility"]
             }]
         },
         armours: {

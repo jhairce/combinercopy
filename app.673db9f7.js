@@ -896,13 +896,6 @@
                 icon: "/assets/icons/weapons/generic/Repeater.png",
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
-			}
-			{
-                name: "Twin Suns",
-                type: "Repeater",
-                icon: "/assets/icons/weapons/generic/TwinSuns.png",
-                monster: "generic",
-                cells: ["Technique", "Mobility"]
             }]
         },
         armours:
@@ -1562,7 +1555,7 @@
                 icon: "/assets/icons/armours/valomyr/GreavesOfValour.png",
                 monster: "valomyr",
                 perks: "Aetherhunter",
-                cells: "Utility"		
+                cells: "Utility"
             }],
             Lantern: [
             {
@@ -6691,8 +6684,7 @@
             102: "Valomyr's Decree",
             103: "Valomyr's Hope",
             104: "Valomyr's Regard",
-            105: "Valomyr's Revenge",
-			106: "Twin Suns"
+            105: "Valomyr's Revenge"
         }
     }
 }, function(n, e, t)
@@ -14599,6 +14591,7 @@
                         "Knockout King": 0,
                         Lucent: 0,
                         Medic: 0,
+						Mender:0,
                         Merciless: 0,
                         Molten: 0,
                         Nimble: 0,
@@ -14718,7 +14711,7 @@
             return function(n, e)
             {
                 if (!(n instanceof e)) throw new TypeError("Cannot call a class as a function")
-            }(this, e), o = this, (t = !(i = b(e).call(this, n)) || "object" !== p(i) && "function" != typeof i ? h(o) : i).weaponTypes = ["Axe", "Chain Blades", "Hammer", "Sword", "War Pike", "Repeater"], t.iconsPath = "./assets/icons/weapons/generic/", t.genericIcons = ["RecruitsAxe.png", "RecruitsChainBlades.png", "RecruitsHammer.png", "RecruitsSword.png", "RecruitsWarPike.png", "Repeater.png", "TwinSuns.png"], t.state = {
+            }(this, e), o = this, (t = !(i = b(e).call(this, n)) || "object" !== p(i) && "function" != typeof i ? h(o) : i).weaponTypes = ["Axe", "Chain Blades", "Hammer", "Sword", "War Pike", "Repeater"], t.iconsPath = "./assets/icons/weapons/generic/", t.genericIcons = ["RecruitsAxe.png", "RecruitsChainBlades.png", "RecruitsHammer.png", "RecruitsSword.png", "RecruitsWarPike.png", "Repeater.png"], t.state = {
                 weaponType: 3
             }, t.opened = !1, t.weaponMenu = r.a.createRef(), t.otherWeapons = r.a.createRef(), t.openClose = t.openClose.bind(h(t)), t.close = t.close.bind(h(t)), t.props.app.weaponMenu = h(t), t
         }
