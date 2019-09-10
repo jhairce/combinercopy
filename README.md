@@ -1,5 +1,5 @@
 # DauntlessCombiner 
-(Updated by Nathalie until kapoty does it)
+(Updated by NathalieWK until Kapoty does it)
 
 Get the possible combinations that you can get given some minimum set perks.
 
