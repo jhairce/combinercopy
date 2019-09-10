@@ -889,17 +889,17 @@
                 perks: "Aetherhunter",
                 cells: ["Power", "Utility"]
             }],
-            Repeaters: [
+            Repeater: [
             {
-                name: "Repeaters",
-                type: "Repeaters",
+                name: "Repeater",
+                type: "Repeater",
                 icon: "/assets/icons/weapons/generic/Repeater.png",
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
 			}
 			{
                 name: "Twin Suns",
-                type: "Repeaters",
+                type: "Repeater",
                 icon: "/assets/icons/weapons/generic/TwinSuns.png",
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
@@ -6481,7 +6481,7 @@
             6: "Antique Clip",
             7: "Ironheart Landbreaker"
         },
-        "Parts:Repeaters":
+        "Parts:Repeater":
         {
             1: "Inferno Barrel",
             2: "Dawnstar Barrel",
@@ -6613,7 +6613,7 @@
             24: "Recruit's Hammer",
             25: "Recruit's Sword",
             26: "Recruit's War Pike",
-            27: "Repeaters",
+            27: "Repeater",
             28: "Training Sword",
             29: "Raging Bite",
             30: "Raging Blade",
@@ -14438,7 +14438,7 @@
                 key: "setWeaponType",
                 value: function(n)
                 {
-                    this.weaponType = n, this.maxPerks = 36, "Repeaters" == n && (this.maxPerks = 33)
+                    this.weaponType = n, this.maxPerks = 36, "Repeater" == n && (this.maxPerks = 33)
                 }
             },
             {
@@ -14529,7 +14529,7 @@
                     if (this.nPerks == this.maxPerks)
                         for (var i in e.weapons[this.weaponType] = e.weapons[this.weaponType].filter(function(e)
                             {
-                                return (null != e.perks || "Repeaters" == n.weaponType) && 0 != n.perks[e.perks]
+                                return (null != e.perks || "Repeater" == n.weaponType) && 0 != n.perks[e.perks]
                             }), e.armours) e.armours[i] = e.armours[i].filter(function(e)
                         {
                             return "Lantern" == e.type || null != e.perks && 0 != n.perks[e.perks]
@@ -14718,7 +14718,7 @@
             return function(n, e)
             {
                 if (!(n instanceof e)) throw new TypeError("Cannot call a class as a function")
-            }(this, e), o = this, (t = !(i = b(e).call(this, n)) || "object" !== p(i) && "function" != typeof i ? h(o) : i).weaponTypes = ["Axe", "Chain Blades", "Hammer", "Sword", "War Pike", "Repeaters"], t.iconsPath = "./assets/icons/weapons/generic/", t.genericIcons = ["RecruitsAxe.png", "RecruitsChainBlades.png", "RecruitsHammer.png", "RecruitsSword.png", "RecruitsWarPike.png", "Repeater.png", "TwinSuns.png"], t.state = {
+            }(this, e), o = this, (t = !(i = b(e).call(this, n)) || "object" !== p(i) && "function" != typeof i ? h(o) : i).weaponTypes = ["Axe", "Chain Blades", "Hammer", "Sword", "War Pike", "Repeater"], t.iconsPath = "./assets/icons/weapons/generic/", t.genericIcons = ["RecruitsAxe.png", "RecruitsChainBlades.png", "RecruitsHammer.png", "RecruitsSword.png", "RecruitsWarPike.png", "Repeater.png", "TwinSuns.png"], t.state = {
                 weaponType: 3
             }, t.opened = !1, t.weaponMenu = r.a.createRef(), t.otherWeapons = r.a.createRef(), t.openClose = t.openClose.bind(h(t)), t.close = t.close.bind(h(t)), t.props.app.weaponMenu = h(t), t
         }
@@ -16089,9 +16089,9 @@
                         className: "version",
                         onClick: function()
                         {
-                            window.open("https://playdauntless.com/patch-notes/ob-0-9-3", "_blank"), ga("send", "event", "Version", "Version", "Version")
+                            window.open("https://playdauntless.com/patch-notes/ob-0-9-0", "_blank"), ga("send", "event", "Version", "Version", "Version")
                         }
-                    }, "OB 0.9.3"), r.a.createElement("div",
+                    }, "OB 0.9.0"), r.a.createElement("div",
                     {
                         className: "privacy",
                         onClick: function()
