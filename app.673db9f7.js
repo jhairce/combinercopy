@@ -898,7 +898,7 @@
                 cells: ["Technique", "Mobility"]
 			},	
 			{	
-			    name: "The Twin Suns",
+			    name: "Twin Suns",
                 type: "Repeaters",
                 icon: "/assets/icons/weapons/generic/TheTwinSuns.png",
                 monster: "generic",
@@ -6692,7 +6692,7 @@
             103: "Valomyr's Hope",
             104: "Valomyr's Regard",
             105: "Valomyr's Revenge",
-			106: "The Twin Suns"
+			106: "Twin Suns"
         }
     }
 }, function(n, e, t)
@@ -14719,8 +14719,8 @@
             return function(n, e)
             {
                 if (!(n instanceof e)) throw new TypeError("Cannot call a class as a function")
-            }(this, e), o = this, (t = !(i = b(e).call(this, n)) || "object" !== p(i) && "function" != typeof i ? h(o) : i).weaponTypes = ["Axe", "Chain Blades", "Hammer", "Sword", "War Pike", "Repeaters"], t.iconsPath = "./assets/icons/weapons/generic/", t.genericIcons = ["RecruitsAxe.png", "RecruitsChainBlades.png", "RecruitsHammer.png", "RecruitsSword.png", "RecruitsWarPike.png", "Repeaters.png", "TheTwinSuns.png"], t.state = {
-                weaponType: 3
+            }(this, e), o = this, (t = !(i = b(e).call(this, n)) || "object" !== p(i) && "function" != typeof i ? h(o) : i).weaponTypes = ["Axe", "Chain Blades", "Hammer", "Sword", "War Pike", "Repeaters"], t.iconsPath = "./assets/icons/weapons/generic/", t.genericIcons = ["RecruitsAxe.png", "RecruitsChainBlades.png", "RecruitsHammer.png", "RecruitsSword.png", "RecruitsWarPike.png", "Repeaters.png"], t.state = {
+                weaponType: 0
             }, t.opened = !1, t.weaponMenu = r.a.createRef(), t.otherWeapons = r.a.createRef(), t.openClose = t.openClose.bind(h(t)), t.close = t.close.bind(h(t)), t.props.app.weaponMenu = h(t), t
         }
         var t, o, i;
