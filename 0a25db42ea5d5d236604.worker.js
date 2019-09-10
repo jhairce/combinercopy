@@ -764,10 +764,17 @@
                 perks: "Aetherhunter",
                 cells: ["Power", "Utility"]
             }],
-            Repeater: [{
-                name: "Repeater",
-                type: "Repeater",
-                icon: "/assets/icons/weapons/generic/Repeater.png",
+            Repeaters: [{
+                name: "Repeaters",
+                type: "Repeaters",
+                icon: "/assets/icons/weapons/generic/Repeaters.png",
+                monster: "generic",
+                cells: ["Technique", "Mobility"]
+			},	
+			{	
+			    name: "Twin Suns",
+                type: "Repeaters",
+                icon: "/assets/icons/weapons/generic/TheTwinSuns.png",
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
 			}]
@@ -1764,7 +1771,7 @@
         return s = e, (n = [{
             key: "setWeaponType",
             value: function(e) {
-                this.weaponType = e, this.maxPerks = 36, "Repeater" == e && (this.maxPerks = 33)
+                this.weaponType = e, this.maxPerks = 36, "Repeaters" == e && (this.maxPerks = 33)
             }
         }, {
             key: "addPerk",
@@ -1833,7 +1840,7 @@
                 });
                 if (this.nPerks == this.maxPerks)
                     for (var t in s.weapons[this.weaponType] = s.weapons[this.weaponType].filter(function(s) {
-                            return (null != s.perks || "Repeater" == e.weaponType) && 0 != e.perks[s.perks]
+                            return (null != s.perks || "Repeaters" == e.weaponType) && 0 != e.perks[s.perks]
                         }), s.armours) s.armours[t] = s.armours[t].filter(function(s) {
                         return "Lantern" == s.type || null != s.perks && 0 != e.perks[s.perks]
                     });

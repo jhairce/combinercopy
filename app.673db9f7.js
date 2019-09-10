@@ -893,10 +893,17 @@
             {
                 name: "Repeater",
                 type: "Repeater",
-                icon: "/assets/icons/weapons/generic/Repeater.png",
+                icon: "/assets/icons/weapons/generic/Repeaters.png",
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
-            }]
+			},	
+			{	
+			    name: "Twin Suns",
+                type: "Repeaters",
+                icon: "/assets/icons/weapons/generic/TheTwinSuns.png",
+                monster: "generic",
+                cells: ["Technique", "Mobility"]
+			}]
         },
         armours:
         {
@@ -6606,7 +6613,7 @@
             24: "Recruit's Hammer",
             25: "Recruit's Sword",
             26: "Recruit's War Pike",
-            27: "Repeater",
+            27: "Repeaters",
             28: "Training Sword",
             29: "Raging Bite",
             30: "Raging Blade",
@@ -6684,7 +6691,8 @@
             102: "Valomyr's Decree",
             103: "Valomyr's Hope",
             104: "Valomyr's Regard",
-            105: "Valomyr's Revenge"
+            105: "Valomyr's Revenge",
+			106: "Twin Suns"
         }
     }
 }, function(n, e, t)
@@ -14711,7 +14719,7 @@
             return function(n, e)
             {
                 if (!(n instanceof e)) throw new TypeError("Cannot call a class as a function")
-            }(this, e), o = this, (t = !(i = b(e).call(this, n)) || "object" !== p(i) && "function" != typeof i ? h(o) : i).weaponTypes = ["Axe", "Chain Blades", "Hammer", "Sword", "War Pike", "Repeater"], t.iconsPath = "./assets/icons/weapons/generic/", t.genericIcons = ["RecruitsAxe.png", "RecruitsChainBlades.png", "RecruitsHammer.png", "RecruitsSword.png", "RecruitsWarPike.png", "Repeater.png"], t.state = {
+            }(this, e), o = this, (t = !(i = b(e).call(this, n)) || "object" !== p(i) && "function" != typeof i ? h(o) : i).weaponTypes = ["Axe", "Chain Blades", "Hammer", "Sword", "War Pike", "Repeaters"], t.iconsPath = "./assets/icons/weapons/generic/", t.genericIcons = ["RecruitsAxe.png", "RecruitsChainBlades.png", "RecruitsHammer.png", "RecruitsSword.png", "RecruitsWarPike.png", "Repeaters.png", "TheTwinSuns.png"], t.state = {
                 weaponType: 3
             }, t.opened = !1, t.weaponMenu = r.a.createRef(), t.otherWeapons = r.a.createRef(), t.openClose = t.openClose.bind(h(t)), t.close = t.close.bind(h(t)), t.props.app.weaponMenu = h(t), t
         }
@@ -16086,19 +16094,12 @@
                         }
                     }, "OB 0.9.3"), r.a.createElement("div",
                     {
-                        className: "original",
+                        className: "privacy",
                         onClick: function()
                         {
                             window.open("https://github.com/Kapoty", "_blank")
                         }
-                    }, "Original code by Kapoty"), r.a.createElement("div",
-                    {
-                        className: "privacy",
-                        onClick: function()
-                        {
-                            window.open("/privacy-policy.html", "_blank")
-                        }
-                    }, "Privacy Policy"))
+                    }, "Original code by Kapoty"))
                 }
             }]) && dn(t.prototype, o), i && dn(t, i), e
         }(),
