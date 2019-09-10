@@ -16082,16 +16082,16 @@
                         className: "version",
                         onClick: function()
                         {
-                            window.open("https://playdauntless.com/patch-notes/ob-0-9-0", "_blank"), ga("send", "event", "Version", "Version", "Version")
+                            window.open("https://playdauntless.com/patch-notes/ob-0-9-3", "_blank"), ga("send", "event", "Version", "Version", "Version")
                         }
-                    }, "OB 0.9.0"), r.a.createElement("div",
+                    }, "OB 0.9.3"), r.a.createElement("div",
                     {
-                        className: "privacy",
+                        className: "original",
                         onClick: function()
                         {
-                            window.open("https://www.tftbuilder.tk/#/", "_blank")
+                            window.open("https://github.com/Kapoty", "_blank")
                         }
-                    }, "TFT Builder"), r.a.createElement("div",
+                    }, "Original code by Kapoty"), r.a.createElement("div",
                     {
                         className: "privacy",
                         onClick: function()
