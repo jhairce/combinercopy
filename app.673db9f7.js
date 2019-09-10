@@ -14591,7 +14591,7 @@
                         "Knockout King": 0,
                         Lucent: 0,
                         Medic: 0,
-						Mender:0,
+						Mender: 0,
                         Merciless: 0,
                         Molten: 0,
                         Nimble: 0,

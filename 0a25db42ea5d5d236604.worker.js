@@ -770,7 +770,7 @@
                 icon: "/assets/icons/weapons/generic/Repeater.png",
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
-            }]
+			}]
         },
         armours: {
             Head: [{
