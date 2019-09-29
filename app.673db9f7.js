@@ -904,6 +904,165 @@
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
 			}]
+			"Aether Strikers": [
+            {
+                name: "Brawlers of Boreus",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/boreus/BrawlersOfBoreus.png",
+                monster: "boreus",
+                perks: "Conditioning",
+                cells: ["Power", "Defence"]
+            },
+            {
+                name: "Charred Hands",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/charrogg/CharredHands.png",
+                monster: "charrogg",
+                perks: "Aetherhunter",
+                cells: ["Technique", "Defence"]
+            },
+            {
+                name: "Thundering Bolts",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/drask/ThunderingBolts.png",
+                monster: "drask",
+                perks: "Aetheric Attunement",
+                cells: ["Technique", "Power"]
+            },
+            {
+                name: "Ember Fists",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/embermane/EmberFists.png",
+                monster: "embermane",
+                perks: "Evasive Fury",
+                cells: ["Technique", "Mobility"]
+            },
+            {
+                name: "Recruit's Strikers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/generic/RecruitsStrikers.png",
+                monster: "generic"
+            },
+            {
+                name: "Raging Fists",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/gnasher/RagingFists.png",
+                monster: "gnasher",
+                perks: "Ragehunter",
+                cells: ["Technique", "Utility"]
+            },
+            {
+                name: "Inferno's Flames",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/hellion/InfernosFlames.png",
+                monster: "hellion",
+                perks: "Overpower",
+                cells: ["Power", "Power"]
+            },
+            {
+                name: "Kharabak's Pincers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/kharabak/KharabaksPincers.png",
+                monster: "kharabak",
+                perks: "Bladestorm",
+                cells: ["Technique", "Mobility"]
+            },
+            {
+                name: "Sovereign's Scepters",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/koshai/SovereignsSceptres.png",
+                monster: "koshai",
+                perks: "Sharpened",
+                cells: ["Power", "Utility"]
+            },
+            {
+                name: "Nayzaga's Shockers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/nayzaga/NayzagasShockers.png",
+                monster: "nayzaga",
+                perks: "Savagery",
+                cells: ["Technique", "Utility"]
+            },
+            {
+                name: "Pangar's Punishers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/pangar/PangarsPunishers.png",
+                monster: "pangar",
+                perks: "Weighted Strikes",
+                cells: ["Technique", "Defence"]
+            },
+            {
+                name: "Quillshot's Shredders",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/quillshot/QuillshotsShredders.png",
+                monster: "quillshot",
+                perks: "Acidic",
+                cells: ["Technique", "Defence"]
+            },
+            {
+                name: "Hands of Dawn",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/rezakiri/HandsOfDawn.png",
+                monster: "rezakiri",
+                perks: "Cunning",
+                cells: ["Technique", "Power"]
+            },
+            {
+                name: "Stalker's Scorn",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/riftstalker/StalkersScorn.png",
+                monster: "riftstalker",
+                perks: "Wild Frenzy",
+                cells: ["Technique", "Utility"]
+            },
+            {
+                name: "Fists of the Shrike",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/shrike/FistsOfTheShrike.png",
+                monster: "shrike",
+                perks: "Conditioning",
+                cells: ["Technique", "Mobility"]
+            },
+            {
+                name: "Hands of Night",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/shrowd/HandsOfNight.png",
+                monster: "shrowd",
+                perks: "Cunning",
+                cells: ["Technique", "Utility"]
+            },
+            {
+                name: "Skarn's Smashers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/skarn/SkarnsSmashers.png",
+                monster: "skarn",
+                perks: "Weighted Strikes",
+                cells: ["Technique", "Defence"]
+            },
+            {
+                name: "Winter Wolves",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/skraev/WinterWolves.png",
+                monster: "skraev",
+                perks: "Nimble",
+                cells: ["Technique", "Mobility"]
+            },
+            {
+                name: "Storm Breakers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/stormclaw/StormBreakers.png",
+                monster: "stormclaw",
+                perks: "Aetheric Attunement",
+                cells: ["Technique", "Mobility"]
+            },
+            {
+                name: "Valomyr's Visions",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/valomyr/ValomyrsVisions.png",
+                monster: "valomyr",
+                perks: "Aetherhunter",
+                cells: ["Power", "Utility"]
+            }],
         },
         armours:
         {
@@ -6693,6 +6852,26 @@
             104: "Valomyr's Regard",
             105: "Valomyr's Revenge",
 			106: "Twin Suns"
+			107: "Brawlers of Boreus"
+			108: "Charred Hands"
+			109: "Thundering Bolts"
+			110: "Ember Fists"
+			111: "Recruit's Strikers"
+			112: "Raging Fists"
+			113: "Inferno's Flames"
+			114: "Kharabak Pincers"
+			115: "Sovereign's Scepters"
+			116: "Nayzaga's Shockers"
+			117: "Pangar's Punishers"
+			118: "Quillshot's Shredders"
+			119: "Hands of Dawn"
+			120: "Stalker's Scorn"
+			121: "Fists of the Shrike"
+			122: "Hands of Night"
+			123: "Skarn's Smashers"
+			124: "Winter Wolves"
+			125: "Storm Breakers"
+			126: "Valomyr's Visions"
         }
     }
 }, function(n, e, t)
@@ -14719,7 +14898,7 @@
             return function(n, e)
             {
                 if (!(n instanceof e)) throw new TypeError("Cannot call a class as a function")
-            }(this, e), o = this, (t = !(i = b(e).call(this, n)) || "object" !== p(i) && "function" != typeof i ? h(o) : i).weaponTypes = ["Axe", "Chain Blades", "Hammer", "Sword", "War Pike", "Repeaters"], t.iconsPath = "./assets/icons/weapons/generic/", t.genericIcons = ["RecruitsAxe.png", "RecruitsChainBlades.png", "RecruitsHammer.png", "RecruitsSword.png", "RecruitsWarPike.png", "Repeaters.png"], t.state = {
+            }(this, e), o = this, (t = !(i = b(e).call(this, n)) || "object" !== p(i) && "function" != typeof i ? h(o) : i).weaponTypes = ["Aether Strikers","Axe", "Chain Blades", "Hammer", "Sword", "War Pike", "Repeaters"], t.iconsPath = "./assets/icons/weapons/generic/", t.genericIcons = ["RecruitsStrikers.png","RecruitsAxe.png", "RecruitsChainBlades.png", "RecruitsHammer.png", "RecruitsSword.png", "RecruitsWarPike.png", "Repeaters.png"], t.state = {
                 weaponType: 0
             }, t.opened = !1, t.weaponMenu = r.a.createRef(), t.otherWeapons = r.a.createRef(), t.openClose = t.openClose.bind(h(t)), t.close = t.close.bind(h(t)), t.props.app.weaponMenu = h(t), t
         }
@@ -16178,7 +16357,7 @@
             key: "componentDidMount",
             value: function()
             {
-                this.setWeaponType("Axe")
+                this.setWeaponType("Aether Strikers")
             }
         },
         {
