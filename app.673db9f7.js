@@ -6852,26 +6852,6 @@
             104: "Valomyr's Regard",
             105: "Valomyr's Revenge",
 			106: "Twin Suns"
-			107: "Brawlers of Boreus"
-			108: "Charred Hands"
-			109: "Thundering Bolts"
-			110: "Ember Fists"
-			111: "Recruit's Strikers"
-			112: "Raging Fists"
-			113: "Inferno's Flames"
-			114: "Kharabak Pincers"
-			115: "Sovereign's Scepters"
-			116: "Nayzaga's Shockers"
-			117: "Pangar's Punishers"
-			118: "Quillshot's Shredders"
-			119: "Hands of Dawn"
-			120: "Stalker's Scorn"
-			121: "Fists of the Shrike"
-			122: "Hands of Night"
-			123: "Skarn's Smashers"
-			124: "Winter Wolves"
-			125: "Storm Breakers"
-			126: "Valomyr's Visions"
         }
     }
 }, function(n, e, t)
