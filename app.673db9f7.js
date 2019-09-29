@@ -14711,7 +14711,7 @@
                                 return (null != e.perks || "Repeaters" == n.weaponType) && 0 != n.perks[e.perks]
                             }), e.armours) e.armours[i] = e.armours[i].filter(function(e)
                         {
-                            return "Lantern" == e.type || null != e.perks && 0 != n.perks[e.perks]
+                            return "Lantern" == e.type || null != e.perks && 1 != n.perks[e.perks]
                         });
                     return e
                 }
