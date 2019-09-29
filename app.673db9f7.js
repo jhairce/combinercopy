@@ -1062,7 +1062,7 @@
                 monster: "valomyr",
                 perks: "Aetherhunter",
                 cells: ["Power", "Utility"]
-            }],
+            }]
         },
         armours:
         {

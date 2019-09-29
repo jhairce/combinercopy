@@ -777,7 +777,166 @@
                 icon: "/assets/icons/weapons/generic/TheTwinSuns.png",
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
-			}]
+			}],
+			"Aether Strikers": [
+            {
+                name: "Brawlers of Boreus",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/boreus/BrawlersOfBoreus.png",
+                monster: "boreus",
+                perks: "Conditioning",
+                cells: ["Power", "Defence"]
+            },
+            {
+                name: "Charred Hands",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/charrogg/CharredHands.png",
+                monster: "charrogg",
+                perks: "Aetherhunter",
+                cells: ["Technique", "Defence"]
+            },
+            {
+                name: "Thundering Bolts",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/drask/ThunderingBolts.png",
+                monster: "drask",
+                perks: "Aetheric Attunement",
+                cells: ["Technique", "Power"]
+            },
+            {
+                name: "Ember Fists",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/embermane/EmberFists.png",
+                monster: "embermane",
+                perks: "Evasive Fury",
+                cells: ["Technique", "Mobility"]
+            },
+            {
+                name: "Recruit's Strikers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/generic/RecruitsStrikers.png",
+                monster: "generic"
+            },
+            {
+                name: "Raging Fists",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/gnasher/RagingFists.png",
+                monster: "gnasher",
+                perks: "Ragehunter",
+                cells: ["Technique", "Utility"]
+            },
+            {
+                name: "Inferno's Flames",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/hellion/InfernosFlames.png",
+                monster: "hellion",
+                perks: "Overpower",
+                cells: ["Power", "Power"]
+            },
+            {
+                name: "Kharabak's Pincers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/kharabak/KharabaksPincers.png",
+                monster: "kharabak",
+                perks: "Bladestorm",
+                cells: ["Technique", "Mobility"]
+            },
+            {
+                name: "Sovereign's Scepters",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/koshai/SovereignsSceptres.png",
+                monster: "koshai",
+                perks: "Sharpened",
+                cells: ["Power", "Utility"]
+            },
+            {
+                name: "Nayzaga's Shockers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/nayzaga/NayzagasShockers.png",
+                monster: "nayzaga",
+                perks: "Savagery",
+                cells: ["Technique", "Utility"]
+            },
+            {
+                name: "Pangar's Punishers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/pangar/PangarsPunishers.png",
+                monster: "pangar",
+                perks: "Weighted Strikes",
+                cells: ["Technique", "Defence"]
+            },
+            {
+                name: "Quillshot's Shredders",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/quillshot/QuillshotsShredders.png",
+                monster: "quillshot",
+                perks: "Acidic",
+                cells: ["Technique", "Defence"]
+            },
+            {
+                name: "Hands of Dawn",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/rezakiri/HandsOfDawn.png",
+                monster: "rezakiri",
+                perks: "Cunning",
+                cells: ["Technique", "Power"]
+            },
+            {
+                name: "Stalker's Scorn",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/riftstalker/StalkersScorn.png",
+                monster: "riftstalker",
+                perks: "Wild Frenzy",
+                cells: ["Technique", "Utility"]
+            },
+            {
+                name: "Fists of the Shrike",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/shrike/FistsOfTheShrike.png",
+                monster: "shrike",
+                perks: "Conditioning",
+                cells: ["Technique", "Mobility"]
+            },
+            {
+                name: "Hands of Night",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/shrowd/HandsOfNight.png",
+                monster: "shrowd",
+                perks: "Cunning",
+                cells: ["Technique", "Utility"]
+            },
+            {
+                name: "Skarn's Smashers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/skarn/SkarnsSmashers.png",
+                monster: "skarn",
+                perks: "Weighted Strikes",
+                cells: ["Technique", "Defence"]
+            },
+            {
+                name: "Winter Wolves",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/skraev/WinterWolves.png",
+                monster: "skraev",
+                perks: "Nimble",
+                cells: ["Technique", "Mobility"]
+            },
+            {
+                name: "Storm Breakers",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/stormclaw/StormBreakers.png",
+                monster: "stormclaw",
+                perks: "Aetheric Attunement",
+                cells: ["Technique", "Mobility"]
+            },
+            {
+                name: "Valomyr's Visions",
+                type: "Aether Strikers",
+                icon: "/assets/icons/weapons/valomyr/ValomyrsVisions.png",
+                monster: "valomyr",
+                perks: "Aetherhunter",
+                cells: ["Power", "Utility"]
+            }]
         },
         armours: {
             Head: [{
