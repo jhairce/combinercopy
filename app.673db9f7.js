@@ -903,7 +903,7 @@
                 icon: "/assets/icons/weapons/generic/TheTwinSuns.png",
                 monster: "generic",
                 cells: ["Technique", "Mobility"]
-			}]
+			}],
 			"Aether Strikers": [
             {
                 name: "Brawlers of Boreus",
