@@ -14711,7 +14711,7 @@
                                 return (null != e.perks || "Repeaters" == n.weaponType) && 0 != n.perks[e.perks]
                             }), e.armours) e.armours[i] = e.armours[i].filter(function(e)
                         {
-                            return "Lantern" == e.type || null != e.perks && 1 != n.perks[e.perks]
+                            return "Lantern" == e.type || null != e.perks && 0 != n.perks[e.perks]
                         });
                     return e
                 }
@@ -15484,7 +15484,7 @@
                 var e = this,
                     t = this.state.tags.slice(0),
                     o = this.state.suggestions.slice(0);
-                o.push(t[n]), "Weapon" == t[n].type || "Head" == t[n].type || "Arms" == t[n].type || "Torso" == t[n].type || "Legs" == t[n].type || "Lantern" == t[n].type ? t[n].exclude ? this.props.app.filter.excludedItems[t[n].type].splice(this.props.app.filter.excludedItems[t[n].type].indexOf(t[n].name.replace("!", "")), 1) : this.props.app.filter.requiredItems[t[n].type] = "" : "Perk" == t[n].type ? this.props.app.filter.excludedPerks.delete(t[n].name.replace("!", "")) : (this.props.app.filter.excludedPerks.delete(t[n].name.replace("!", "")), Object.keys(c.perks).forEach(function(o)
+                o.push(t[n]), "Weapon" == t[n].type || "Head" == t[n].type || "Arms" == t[n].type || "Torso" == t[n].type || "Legs" == t[n].type || "Lantern" == t[n].type ? t[n].exclude ? this.props.app.filter.excludedItems[t[n].type].splice(this.props.app.filter.excludedItems[t[n].type].indexOf(t[n].name.replace("!", "")), 2) : this.props.app.filter.requiredItems[t[n].type] = "" : "Perk" == t[n].type ? this.props.app.filter.excludedPerks.delete(t[n].name.replace("!", "")) : (this.props.app.filter.excludedPerks.delete(t[n].name.replace("!", "")), Object.keys(c.perks).forEach(function(o)
                 {
                     c.perks[o].type == t[n].name.replace("!", "") && e.props.app.filter.excludedPerks.delete(o)
                 })), t.splice(n, 1), o.sort(this.sortTags), 0 == t.length && (this.props.app.filtering = !1), this.setState(
