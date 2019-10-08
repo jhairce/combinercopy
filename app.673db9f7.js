@@ -16223,42 +16223,6 @@
                 {
                     return r.a.createElement("div",
                     {
-                        id: "footer"
-                    }, r.a.createElement("div",
-                    {
-                        className: "paypalbut"
-                    }, r.a.createElement("form",
-                    {
-                        action: "https://www.paypal.com/cgi-bin/webscr",
-                        method: "post",
-                        target: "_top"
-                    }, r.a.createElement("input",
-                    {
-                        type: "hidden",
-                        name: "cmd",
-                        value: "_s-xclick"
-                    }), r.a.createElement("input",
-                    {
-                        type: "hidden",
-                        name: "hosted_button_id",
-                        value: "3QHT96BLX35AE"
-                    }), r.a.createElement("input",
-                    {
-                        type: "image",
-                        src: "https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif",
-                        border: "0",
-                        name: "submit",
-                        title: "PayPal - The safer, easier way to pay online!",
-                        alt: "Donate with PayPal button"
-                    }), r.a.createElement("img",
-                    {
-                        alt: "",
-                        border: "0",
-                        src: "https://www.paypal.com/en_BR/i/scr/pixel.gif",
-                        width: "1",
-                        height: "1"
-                    }))), r.a.createElement("div",
-                    {
                         className: "reddit",
                         onClick: function()
                         {
