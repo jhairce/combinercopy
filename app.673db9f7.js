@@ -16222,6 +16222,9 @@
                 value: function()
                 {
                     return r.a.createElement("div",
+                    {                    
+                        id: "footer"
+                    }, r.a.createElement("div",
                     {
                         className: "reddit",
                         onClick: function()
