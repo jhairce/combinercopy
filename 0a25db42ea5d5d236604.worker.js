@@ -862,7 +862,7 @@
                 type: "Aether Strikers",
                 icon: "/assets/icons/weapons/pangar/PangarsPunishers.png",
                 monster: "pangar",
-                perks: "Weighted Strikes",
+                perks: "Knockout King",
                 cells: ["Technique", "Defence"]
             },
             {
@@ -910,7 +910,7 @@
                 type: "Aether Strikers",
                 icon: "/assets/icons/weapons/skarn/SkarnsSmashers.png",
                 monster: "skarn",
-                perks: "Weighted Strikes",
+                perks: "Knockout King",
                 cells: ["Technique", "Defence"]
             },
             {
