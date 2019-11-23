@@ -16229,9 +16229,9 @@
                         className: "reddit",
                         onClick: function()
                         {
-                            window.open("https://www.reddit.com/r/dauntless/comments/c4x0a2/dauntless_combiner/", "_blank"), ga("send", "event", "Reddit", "Reddit", "Reddit")
+                            window.open("https://discord.gg/dauntless", "_blank"), ga("send", "event", "Discord", "Discord", "Discord")
                         }
-                    }, "Reddit"), r.a.createElement("div",
+                    }, "Discord"), r.a.createElement("div",
                     {
                         className: "version",
                         onClick: function()
