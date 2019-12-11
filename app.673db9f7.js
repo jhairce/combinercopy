@@ -1077,7 +1077,7 @@
                 name: "Malkarion's Sight",
                 type: "Head",
                 icon: "/assets/icons/armours/generic/RecruitsMask.png",
-                monster: "Malkarion",
+                monster: "malkarion",
 				perks: "Grace",
                 cells: "Mobility"
             }, {
@@ -1241,7 +1241,7 @@
                 name: "Malkarion's Soul",
                 type: "Torso",
                 icon: "/assets/icons/armours/generic/RecruitsBreastplate.png",
-                monster: "Malkarion",
+                monster: "malkarion",
 				perks: "Aetherhunter",
                 cells: "Technique"
             }, {
@@ -1387,7 +1387,7 @@
                 name: "Malkarion's Grasp",
                 type: "Arms",
                 icon: "/assets/icons/armours/generic/RecruitsGloves.png",
-                monster: "Malkarion",
+                monster: "malkarion",
 				perks: "Predator",
                 cells: "Technique"
             }, {
@@ -1533,7 +1533,7 @@
                 name: "Malkarion's March",
                 type: "Legs",
                 icon: "/assets/icons/armours/generic/RecruitsGreaves.png",
-                monster: "Malkarion",
+                monster: "malkarion",
 				perks: "Aetherhunter",
                 cells: "Technique"
             }, {
