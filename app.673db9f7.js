@@ -6388,7 +6388,11 @@
             80: "Aegis of Valour",
             81: "Crest of Valour",
             82: "Gauntlets of Valour",
-            83: "Greaves of Valour"
+            83: "Greaves of Valour",
+			84: "Malkarion's Sight",
+			85: "Malkarion's Soul",
+			86: "Malkarion's Grasp",
+			87: "Malkarion's March"
         },
         Cells:
         {
