@@ -1924,6 +1924,9 @@
             Swift: {
                 type: "Mobility"
             },
+            Grace: {
+                type: "Mobility"
+            },
             Tough: {
                 type: "Defence"
             },
@@ -2088,6 +2091,7 @@
                     Fireproof: 0,
                     "Fleet Footed": 0,
                     Fortress: 0,
+					Grace: 0,
                     Guardian: 0,
                     Iceborne: 0,
                     Insulated: 0,
