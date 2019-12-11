@@ -947,6 +947,13 @@
                 perks: "Conditioning",
                 cells: "Utility"
             }, {
+                name: "Malkarion's Sight",
+                type: "Head",
+                icon: "/assets/icons/armours/generic/RecruitsMask.png",
+                monster: "Malkarion",
+				perks: "Grace"
+                cells: "Mobility"
+            }, {
                 name: "The Skullforge",
                 type: "Head",
                 icon: "/assets/icons/armours/charrogg/TheSkullforge.png",
@@ -1104,6 +1111,13 @@
                 perks: "Rage",
                 cells: "Defence"
             }, {
+                name: "Malkarion's Soul",
+                type: "Torso",
+                icon: "/assets/icons/armours/generic/RecruitsBreastplate.png",
+                monster: "Malkarion",
+				perks: "Aetherhunter"
+                cells: "Technique"
+            }, {
                 name: "Volcanic Aegis",
                 type: "Torso",
                 icon: "/assets/icons/armours/charrogg/VolcanicAegis.png",
@@ -1243,6 +1257,13 @@
                 perks: "Rage",
                 cells: "Power"
             }, {
+                name: "Malkarion's Grasp",
+                type: "Arms",
+                icon: "/assets/icons/armours/generic/RecruitsGloves.png",
+                monster: "Malkarion",
+				perks: "Predator"
+                cells: "Technique"
+            }, {
                 name: "Volcanic Grips",
                 type: "Arms",
                 icon: "/assets/icons/armours/charrogg/VolcanicGrips.png",
@@ -1380,6 +1401,13 @@
                 icon: "/assets/icons/armours/boreus/BorealMarch.png",
                 monster: "boreus",
                 perks: "Iceborne",
+                cells: "Technique"
+            }, {
+                name: "Malkarion's March",
+                type: "Legs",
+                icon: "/assets/icons/armours/generic/RecruitsGreaves.png",
+                monster: "Malkarion",
+				perks: "Aetherhunter"
                 cells: "Technique"
             }, {
                 name: "Volcanic Treads",
@@ -1606,6 +1634,10 @@
             }, {
                 name: "Swift Cell",
                 perk: "Swift",
+                slot: "Mobility"
+            }, {
+                name: "Grace Cell",
+                perk: "Grace",
                 slot: "Mobility"
             }],
             power: [{

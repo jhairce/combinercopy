@@ -1066,179 +1066,163 @@
         },
         armours:
         {
-            Head: [
-            {
+            Head: [{
                 name: "Boreal Epiphany",
                 type: "Head",
                 icon: "/assets/icons/armours/boreus/BorealEpiphany.png",
                 monster: "boreus",
                 perks: "Conditioning",
                 cells: "Utility"
-            },
-            {
+            }, {
+                name: "Malkarion's Sight",
+                type: "Head",
+                icon: "/assets/icons/armours/generic/RecruitsMask.png",
+                monster: "Malkarion",
+				perks: "Grace"
+                cells: "Mobility"
+            }, {
                 name: "The Skullforge",
                 type: "Head",
                 icon: "/assets/icons/armours/charrogg/TheSkullforge.png",
                 monster: "charrogg",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Volcanic Helm",
                 type: "Head",
                 icon: "/assets/icons/armours/charrogg/VolcanicHelm.png",
                 monster: "charrogg",
                 perks: "Fireproof",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Draskscale Helmet",
                 type: "Head",
                 icon: "/assets/icons/armours/drask/DraskscaleHelmet.png",
                 monster: "drask",
                 perks: "Aetheric Attunement",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Fiery Helm",
                 type: "Head",
                 icon: "/assets/icons/armours/embermane/FieryHelm.png",
                 monster: "embermane",
                 perks: "Evasive Fury",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Recruit's Mask",
                 type: "Head",
                 icon: "/assets/icons/armours/generic/RecruitsMask.png",
                 monster: "generic"
-            },
-            {
+            }, {
                 name: "Gnasher Cap",
                 type: "Head",
                 icon: "/assets/icons/armours/gnasher/GnasherCap.png",
                 monster: "gnasher",
                 perks: "Bloodless",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Hellplate Casque",
                 type: "Head",
                 icon: "/assets/icons/armours/hellion/HellplateCasque.png",
                 monster: "hellion",
                 perks: "Ragehunter",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Eye of the Swarm",
                 type: "Head",
                 icon: "/assets/icons/armours/kharabak/EyeOfTheSwarm.png",
                 monster: "kharabak",
                 perks: "Shellshock Resist",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Visage of Thorns",
                 type: "Head",
                 icon: "/assets/icons/armours/koshai/VisageOfThorns.png",
                 monster: "koshai",
                 perks: "Agility",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Shocking Gaze",
                 type: "Head",
                 icon: "/assets/icons/armours/nayzaga/ShockingGaze.png",
                 monster: "nayzaga",
                 perks: "Medic",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Brow of Ice",
                 type: "Head",
                 icon: "/assets/icons/armours/pangar/BrowOfIce.png",
                 monster: "pangar",
                 perks: "Knockout King",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Quillspike Mask",
                 type: "Head",
                 icon: "/assets/icons/armours/quillshot/QuillspikeMask.png",
                 monster: "quillshot",
                 perks: "Savagery",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Light's Crown",
                 type: "Head",
                 icon: "/assets/icons/armours/rezakiri/LightsCrown.png",
                 monster: "rezakiri",
                 perks: "Conduit",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Prismatic Grace",
                 type: "Head",
                 icon: "/assets/icons/armours/rezakiri/PrismaticGrace.png",
                 monster: "rezakiri",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Guise of the Rift",
                 type: "Head",
                 icon: "/assets/icons/armours/riftstalker/GuiseOfTheRift.png",
                 monster: "riftstalker",
                 perks: "Aetheric Attunement",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Shrikedown Helm",
                 type: "Head",
                 icon: "/assets/icons/armours/shrike/ShrikedownHelm.png",
                 monster: "shrike",
                 perks: "Evasion",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Dark Watch",
                 type: "Head",
                 icon: "/assets/icons/armours/shrowd/DarkWatch.png",
                 monster: "shrowd",
                 perks: "Rage",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Tragic Echo",
                 type: "Head",
                 icon: "/assets/icons/armours/shrowd/TragicEcho.png",
                 monster: "shrowd",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Sight of Stone",
                 type: "Head",
                 icon: "/assets/icons/armours/skarn/SightOfStone.png",
                 monster: "skarn",
                 perks: "Tough",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Skraevwing Helmet",
                 type: "Head",
                 icon: "/assets/icons/armours/skraev/SkraevwingHelmet.png",
                 monster: "skraev",
                 perks: "Fleet Footed",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Lightning Helm",
                 type: "Head",
                 icon: "/assets/icons/armours/stormclaw/LightningHelm.png",
                 monster: "stormclaw",
                 perks: "Energized",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Crest of Valour",
                 type: "Head",
                 icon: "/assets/icons/armours/valomyr/CrestOfValour.png",
@@ -1246,158 +1230,145 @@
                 perks: "Lucent",
                 cells: "Power"
             }],
-            Torso: [
-            {
+            Torso: [{
                 name: "Boreal Resolve",
                 type: "Torso",
                 icon: "/assets/icons/armours/boreus/BorealResolve.png",
                 monster: "boreus",
                 perks: "Rage",
                 cells: "Defence"
-            },
-            {
+            }, {
+                name: "Malkarion's Soul",
+                type: "Torso",
+                icon: "/assets/icons/armours/generic/RecruitsBreastplate.png",
+                monster: "Malkarion",
+				perks: "Aetherhunter"
+                cells: "Technique"
+            }, {
                 name: "Volcanic Aegis",
                 type: "Torso",
                 icon: "/assets/icons/armours/charrogg/VolcanicAegis.png",
                 monster: "charrogg",
                 perks: "Aetherhunter",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Draskscale Plate",
                 type: "Torso",
                 icon: "/assets/icons/armours/drask/DraskscalePlate.png",
                 monster: "drask",
                 perks: "Aetheric Attunement",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Fiery Breastplate",
                 type: "Torso",
                 icon: "/assets/icons/armours/embermane/FieryBreastplate.png",
                 monster: "embermane",
                 perks: "Evasive Fury",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Recruit's Breastplate",
                 type: "Torso",
                 icon: "/assets/icons/armours/generic/RecruitsBreastplate.png",
                 monster: "generic"
-            },
-            {
+            }, {
                 name: "Gnasher Cloak",
                 type: "Torso",
                 icon: "/assets/icons/armours/gnasher/GnasherCloak.png",
                 monster: "gnasher",
                 perks: "Tough",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Hellplate Cuirass",
                 type: "Torso",
                 icon: "/assets/icons/armours/hellion/HellplateCuirass.png",
                 monster: "hellion",
                 perks: "Molten",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Shell of the Swarm",
                 type: "Torso",
                 icon: "/assets/icons/armours/kharabak/ShellOfTheSwarm.png",
                 monster: "kharabak",
                 perks: "Bladestorm",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Mantle of Thorns",
                 type: "Torso",
                 icon: "/assets/icons/armours/koshai/MantleOfThorns.png",
                 monster: "koshai",
                 perks: "Predator",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Shocking Heart",
                 type: "Torso",
                 icon: "/assets/icons/armours/nayzaga/ShockingHeart.png",
                 monster: "nayzaga",
                 perks: "Medic",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Core of Ice",
                 type: "Torso",
                 icon: "/assets/icons/armours/pangar/CoreOfIce.png",
                 monster: "pangar",
                 perks: "Fortress",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Quillspike Jacket",
                 type: "Torso",
                 icon: "/assets/icons/armours/quillshot/QuillspikeJacket.png",
                 monster: "quillshot",
                 perks: "Savagery",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Light's Virtue",
                 type: "Torso",
                 icon: "/assets/icons/armours/rezakiri/LightsVirtue.png",
                 monster: "rezakiri",
                 perks: "Cunning",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Mantle of the Rift",
                 type: "Torso",
                 icon: "/assets/icons/armours/riftstalker/MantleOfTheRift.png",
                 monster: "riftstalker",
                 perks: "Conduit",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Shrikedown Plate",
                 type: "Torso",
                 icon: "/assets/icons/armours/shrike/ShrikedownPlate.png",
                 monster: "shrike",
                 perks: "Evasion",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Dark Marrow",
                 type: "Torso",
                 icon: "/assets/icons/armours/shrowd/DarkMarrow.png",
                 monster: "shrowd",
                 perks: "Rage",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Heart of Stone",
                 type: "Torso",
                 icon: "/assets/icons/armours/skarn/HeartOfStone.png",
                 monster: "skarn",
                 perks: "Guardian",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Skraevwing Jacket",
                 type: "Torso",
                 icon: "/assets/icons/armours/skraev/SkraevwingJacket.png",
                 monster: "skraev",
                 perks: "Adrenaline",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Lightning Plate",
                 type: "Torso",
                 icon: "/assets/icons/armours/stormclaw/LightningPlate.png",
                 monster: "stormclaw",
                 perks: "Energized",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Aegis of Valour",
                 type: "Torso",
                 icon: "/assets/icons/armours/valomyr/AegisOfValour.png",
@@ -1405,158 +1376,145 @@
                 perks: "Nine Lives",
                 cells: "Power"
             }],
-            Arms: [
-            {
+            Arms: [{
                 name: "Boreal Might",
                 type: "Arms",
                 icon: "/assets/icons/armours/boreus/BorealMight.png",
                 monster: "boreus",
                 perks: "Rage",
                 cells: "Power"
-            },
-            {
+            }, {
+                name: "Malkarion's Grasp",
+                type: "Arms",
+                icon: "/assets/icons/armours/generic/RecruitsGloves.png",
+                monster: "Malkarion",
+				perks: "Predator"
+                cells: "Technique"
+            }, {
                 name: "Volcanic Grips",
                 type: "Arms",
                 icon: "/assets/icons/armours/charrogg/VolcanicGrips.png",
                 monster: "charrogg",
                 perks: "Rage",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Draskscale Gauntlets",
                 type: "Arms",
                 icon: "/assets/icons/armours/drask/DraskscaleGauntlets.png",
                 monster: "drask",
                 perks: "Sharpened",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Fiery Gauntlets",
                 type: "Arms",
                 icon: "/assets/icons/armours/embermane/FieryGauntlets.png",
                 monster: "embermane",
                 perks: "Fireproof",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Recruit's Gloves",
                 type: "Arms",
                 icon: "/assets/icons/armours/generic/RecruitsGloves.png",
                 monster: "generic"
-            },
-            {
+            }, {
                 name: "Gnasher Grips",
                 type: "Arms",
                 icon: "/assets/icons/armours/gnasher/GnasherGrips.png",
                 monster: "gnasher",
                 perks: "Ragehunter",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Hellplate Bracers",
                 type: "Arms",
                 icon: "/assets/icons/armours/hellion/HellplateBracers.png",
                 monster: "hellion",
                 perks: "Molten",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Clutches of the Swarm",
                 type: "Arms",
                 icon: "/assets/icons/armours/kharabak/ClutchesOfTheSwarm.png",
                 monster: "kharabak",
                 perks: "Conditioning",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Grasp of Thorns",
                 type: "Arms",
                 icon: "/assets/icons/armours/koshai/GraspOfThorns.png",
                 monster: "koshai",
                 perks: "Evasive Fury",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Shocking Grasp",
                 type: "Arms",
                 icon: "/assets/icons/armours/nayzaga/ShockingGrasp.png",
                 monster: "nayzaga",
                 perks: "Aetheric Attunement",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Arms of Ice",
                 type: "Arms",
                 icon: "/assets/icons/armours/pangar/ArmsOfIce.png",
                 monster: "pangar",
                 perks: "Knockout King",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Quillspike Grips",
                 type: "Arms",
                 icon: "/assets/icons/armours/quillshot/QuillspikeGrips.png",
                 monster: "quillshot",
                 perks: "Barbed",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Light's Refuge",
                 type: "Arms",
                 icon: "/assets/icons/armours/rezakiri/LightsRefuge.png",
                 monster: "rezakiri",
                 perks: "Conduit",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Hands of the Rift",
                 type: "Arms",
                 icon: "/assets/icons/armours/riftstalker/HandsOfTheRift.png",
                 monster: "riftstalker",
                 perks: "Evasion",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Shrikedown Gloves",
                 type: "Arms",
                 icon: "/assets/icons/armours/shrike/ShrikedownGloves.png",
                 monster: "shrike",
                 perks: "Weighted Strikes",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Dark Embrace",
                 type: "Arms",
                 icon: "/assets/icons/armours/shrowd/DarkEmbrace.png",
                 monster: "shrowd",
                 perks: "Medic",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Might of Stone",
                 type: "Arms",
                 icon: "/assets/icons/armours/skarn/MightOfStone.png",
                 monster: "skarn",
                 perks: "Fortress",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Skraevwing Gloves",
                 type: "Arms",
                 icon: "/assets/icons/armours/skraev/SkraevwingGloves.png",
                 monster: "skraev",
                 perks: "Warmth",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Lightning Gloves",
                 type: "Arms",
                 icon: "/assets/icons/armours/stormclaw/LightningGloves.png",
                 monster: "stormclaw",
                 perks: "Insulated",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Gauntlets of Valour",
                 type: "Arms",
                 icon: "/assets/icons/armours/valomyr/GauntletsOfValour.png",
@@ -1564,158 +1522,145 @@
                 perks: "Lucent",
                 cells: "Defence"
             }],
-            Legs: [
-            {
+            Legs: [{
                 name: "Boreal March",
                 type: "Legs",
                 icon: "/assets/icons/armours/boreus/BorealMarch.png",
                 monster: "boreus",
                 perks: "Iceborne",
                 cells: "Technique"
-            },
-            {
+            }, {
+                name: "Malkarion's March",
+                type: "Legs",
+                icon: "/assets/icons/armours/generic/RecruitsGreaves.png",
+                monster: "Malkarion",
+				perks: "Aetherhunter"
+                cells: "Technique"
+            }, {
                 name: "Volcanic Treads",
                 type: "Legs",
                 icon: "/assets/icons/armours/charrogg/VolcanicTreads.png",
                 monster: "charrogg",
                 perks: "Rage",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Draskscale Greaves",
                 type: "Legs",
                 icon: "/assets/icons/armours/drask/DraskscaleGreaves.png",
                 monster: "drask",
                 perks: "Fleet Footed",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Fiery Greaves",
                 type: "Legs",
                 icon: "/assets/icons/armours/embermane/FieryGreaves.png",
                 monster: "embermane",
                 perks: "Evasion",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Recruit's Greaves",
                 type: "Legs",
                 icon: "/assets/icons/armours/generic/RecruitsGreaves.png",
                 monster: "generic"
-            },
-            {
+            }, {
                 name: "Gnasher Treads",
                 type: "Legs",
                 icon: "/assets/icons/armours/gnasher/GnasherTreads.png",
                 monster: "gnasher",
                 perks: "Tough",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Hellplate Greaves",
                 type: "Legs",
                 icon: "/assets/icons/armours/hellion/HellplateGreaves.png",
                 monster: "hellion",
                 perks: "Fortress",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Dance of the Swarm",
                 type: "Legs",
                 icon: "/assets/icons/armours/kharabak/DanceOfTheSwarm.png",
                 monster: "kharabak",
                 perks: "Conditioning",
                 cells: "Power"
-            },
-            {
+            }, {
                 name: "Stride of Thorns",
                 type: "Legs",
                 icon: "/assets/icons/armours/koshai/StrideOfThorns.png",
                 monster: "koshai",
                 perks: "Predator",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Shocking Stride",
                 type: "Legs",
                 icon: "/assets/icons/armours/nayzaga/ShockingStride.png",
                 monster: "nayzaga",
                 perks: "Insulated",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Feet of Ice",
                 type: "Legs",
                 icon: "/assets/icons/armours/pangar/FeetOfIce.png",
                 monster: "pangar",
                 perks: "Warmth",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Quillspike Boots",
                 type: "Legs",
                 icon: "/assets/icons/armours/quillshot/QuillspikeBoots.png",
                 monster: "quillshot",
                 perks: "Shellshock Resist",
                 cells: "Technique"
-            },
-            {
+            }, {
                 name: "Light's Walk",
                 type: "Legs",
                 icon: "/assets/icons/armours/rezakiri/LightsWalk.png",
                 monster: "rezakiri",
                 perks: "Agility",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Striders of the Rift",
                 type: "Legs",
                 icon: "/assets/icons/armours/riftstalker/StridersOfTheRift.png",
                 monster: "riftstalker",
                 perks: "Conduit",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Shrikedown Greaves",
                 type: "Legs",
                 icon: "/assets/icons/armours/shrike/ShrikedownGreaves.png",
                 monster: "shrike",
                 perks: "Bloodless",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Dark Path",
                 type: "Legs",
                 icon: "/assets/icons/armours/shrowd/DarkPath.png",
                 monster: "shrowd",
                 perks: "Nine Lives",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Pillars of Stone",
                 type: "Legs",
                 icon: "/assets/icons/armours/skarn/PillarsOfStone.png",
                 monster: "skarn",
                 perks: "Guardian",
                 cells: "Defence"
-            },
-            {
+            }, {
                 name: "Skraevwing Boots",
                 type: "Legs",
                 icon: "/assets/icons/armours/skraev/SkraevwingBoots.png",
                 monster: "skraev",
                 perks: "Adrenaline",
                 cells: "Utility"
-            },
-            {
+            }, {
                 name: "Lightning Boots",
                 type: "Legs",
                 icon: "/assets/icons/armours/stormclaw/LightningBoots.png",
                 monster: "stormclaw",
                 perks: "Aetheric Frenzy",
                 cells: "Mobility"
-            },
-            {
+            }, {
                 name: "Greaves of Valour",
                 type: "Legs",
                 icon: "/assets/icons/armours/valomyr/GreavesOfValour.png",
@@ -1839,6 +1784,11 @@
             {
                 name: "Swift Cell",
                 perk: "Swift",
+                slot: "Mobility"
+            }, 
+			{
+                name: "Grace Cell",
+                perk: "Grace",
                 slot: "Mobility"
             }],
             power: [
@@ -2201,6 +2151,10 @@
                 type: "Mobility"
             },
             Swift:
+            {
+                type: "Mobility"
+            },
+            Grace:
             {
                 type: "Mobility"
             },
@@ -6599,7 +6553,10 @@
             159: "+3 Sprinter Cell",
 			160: "+1 Mender Cell",
 			161: "+2 Mender Cell",
-			162: "+3 Mender Cell"
+			162: "+3 Mender Cell",
+			163: "+1 Grace Cell",
+			164: "+2 Grace Cell",
+			165: "+3 Grace Cell"
         },
         Lanterns:
         {
@@ -6742,7 +6699,8 @@
             51: "Strategist",
             52: "Discipline",
             53: "Sprinter",
-			54: "Mender"
+			54: "Mender",
+			55: "Grace"
         },
         Weapons:
         {
