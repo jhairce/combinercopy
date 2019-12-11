@@ -951,7 +951,7 @@
                 type: "Head",
                 icon: "/assets/icons/armours/generic/RecruitsMask.png",
                 monster: "Malkarion",
-				perks: "Grace"
+				perks: "Grace",
                 cells: "Mobility"
             }, {
                 name: "The Skullforge",
@@ -1115,7 +1115,7 @@
                 type: "Torso",
                 icon: "/assets/icons/armours/generic/RecruitsBreastplate.png",
                 monster: "Malkarion",
-				perks: "Aetherhunter"
+				perks: "Aetherhunter",
                 cells: "Technique"
             }, {
                 name: "Volcanic Aegis",
@@ -1261,7 +1261,7 @@
                 type: "Arms",
                 icon: "/assets/icons/armours/generic/RecruitsGloves.png",
                 monster: "Malkarion",
-				perks: "Predator"
+				perks: "Predator",
                 cells: "Technique"
             }, {
                 name: "Volcanic Grips",
@@ -1407,7 +1407,7 @@
                 type: "Legs",
                 icon: "/assets/icons/armours/generic/RecruitsGreaves.png",
                 monster: "Malkarion",
-				perks: "Aetherhunter"
+				perks: "Aetherhunter",
                 cells: "Technique"
             }, {
                 name: "Volcanic Treads",
