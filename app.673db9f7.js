@@ -1076,7 +1076,7 @@
             }, {
                 name: "Malkarion's Sight",
                 type: "Head",
-                icon: "/assets/icons/armours/generic/RecruitsMask.png",
+                icon: "/assets/icons/armours/malkarion/MalkarionsSight.png",
                 monster: "malkarion",
 				perks: "Grace",
                 cells: "Mobility"
@@ -1240,7 +1240,7 @@
             }, {
                 name: "Malkarion's Soul",
                 type: "Torso",
-                icon: "/assets/icons/armours/generic/RecruitsBreastplate.png",
+                icon: "/assets/icons/armours/malkarion/MalkarionsSoul.png",
                 monster: "malkarion",
 				perks: "Aetherhunter",
                 cells: "Technique"
@@ -1386,7 +1386,7 @@
             }, {
                 name: "Malkarion's Grasp",
                 type: "Arms",
-                icon: "/assets/icons/armours/generic/RecruitsGloves.png",
+                icon: "/assets/icons/armours/malkarion/MalkarionsGrasp.png",
                 monster: "malkarion",
 				perks: "Predator",
                 cells: "Technique"
@@ -1532,7 +1532,7 @@
             }, {
                 name: "Malkarion's March",
                 type: "Legs",
-                icon: "/assets/icons/armours/generic/RecruitsGreaves.png",
+                icon: "/assets/icons/armours/malkarion/MalkarionsMarch.png",
                 monster: "malkarion",
 				perks: "Aetherhunter",
                 cells: "Technique"
@@ -1771,6 +1771,11 @@
                 perk: "Fleet Footed",
                 slot: "Mobility"
             },
+			{
+                name: "Grace Cell",
+                perk: "Grace",
+                slot: "Mobility"
+            },
             {
                 name: "Nimble Cell",
                 perk: "Nimble",
@@ -1784,11 +1789,6 @@
             {
                 name: "Swift Cell",
                 perk: "Swift",
-                slot: "Mobility"
-            }, 
-			{
-                name: "Grace Cell",
-                perk: "Grace",
                 slot: "Mobility"
             }],
             power: [
@@ -2058,6 +2058,10 @@
             {
                 type: "Defence"
             },
+            Grace:
+            {
+                type: "Mobility"
+            },
             Guardian:
             {
                 type: "Defence"
@@ -2151,10 +2155,6 @@
                 type: "Mobility"
             },
             Swift:
-            {
-                type: "Mobility"
-            },
-            Grace:
             {
                 type: "Mobility"
             },
@@ -6389,10 +6389,10 @@
             81: "Crest of Valour",
             82: "Gauntlets of Valour",
             83: "Greaves of Valour",
-			84: "Malkarion's Sight",
-			85: "Malkarion's Soul",
-			86: "Malkarion's Grasp",
-			87: "Malkarion's March"
+			84: "Malkarion's Grasp",
+			85: "Malkarion's March",
+			86: "Malkarion's Sight",
+			87: "Malkarion's Soul"
         },
         Cells:
         {
@@ -6702,8 +6702,8 @@
             50: "Engineer",
             51: "Strategist",
             52: "Discipline",
-            53: "Sprinter",
-			54: "Mender",
+            53: "Mender",
+			54: "Sprinter",
 			55: "Grace"
         },
         Weapons:
@@ -6833,7 +6833,12 @@
 			123: "Skarn's Smashers",
 			124: "Winter Wolves",
 			125: "Storm Breakers",
-			126: "Valomyr's Visions"
+			126: "Valomyr's Visions",
+			127: "Cyclonic Fury",
+			128: "Electric Cruelties",
+			129: "Galvanic Impact",
+			130: "Terminal Voltage",
+			131: "The Conductor"
         }
     }
 }, function(n, e, t)
