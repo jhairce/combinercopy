@@ -69,7 +69,7 @@
         {
             Hammer: [
             {
-                name: "Brutality of reus",
+                name: "Brutality of Boreus",
                 type: "Hammer",
                 icon: "/assets/icons/weapons/boreus/BrutalityOfBoreus.png",
                 monster: "boreus",
