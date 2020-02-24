@@ -54,6 +54,12 @@
                 perks: "Conditioning",
                 cells: ["Power", "Defence"]
             }, {
+                name: "Galvanic Impact",
+                type: "Hammer",
+                icon: "/assets/icons/weapons/malkarion/GalvanicImpact.png",
+                monster: "malkarion",
+                cells: ["Prismatic", "Prismatic"]
+            }, {
                 name: "Charred Crusher",
                 type: "Hammer",
                 icon: "/assets/icons/weapons/charrogg/CharredCrusher.png",
@@ -1553,55 +1559,55 @@
             defence: [{
                 name: "Assassin's Vigour Cell",
                 perk: "Assassin's Vigour",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Bloodless Cell",
                 perk: "Bloodless",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Fireproof Cell",
                 perk: "Fireproof",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Fortress Cell",
                 perk: "Fortress",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Guardian Cell",
                 perk: "Guardian",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Iceborne Cell",
                 perk: "Iceborne",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Insulated Cell",
                 perk: "Insulated",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Nine Lives Cell",
                 perk: "Nine Lives",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Shellshock Resist Cell",
                 perk: "Shellshock Resist",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Strategist Cell",
                 perk: "Strategist",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Sturdy Cell",
                 perk: "Sturdy",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Tough Cell",
                 perk: "Tough",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }, {
                 name: "Warmth Cell",
                 perk: "Warmth",
-                slot: "Defence"
+                slot: ["Defence", "Prismatic"]
             }],
             mobility: [{
                 name: "Agility Cell",
