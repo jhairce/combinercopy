@@ -47,12 +47,12 @@
     e.exports = {
         weapons: {
             Hammer: [{
-                name: "Brutality of reus",
+                name: "Brutality of Boreus",
                 type: "Hammer",
                 icon: "/assets/icons/weapons/boreus/BrutalityOfBoreus.png",
                 monster: "boreus",
                 perks: "Conditioning",
-                cells: ["Technique", "Defence"]
+                cells: ["Defence", "Defence"]
             }, {
                 name: "Charred Crusher",
                 type: "Hammer",
