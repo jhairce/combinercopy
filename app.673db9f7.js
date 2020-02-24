@@ -74,7 +74,7 @@
                 icon: "/assets/icons/weapons/boreus/BrutalityOfBoreus.png",
                 monster: "boreus",
                 perks: "Conditioning",
-                cells: ["Technique", "Defence"]
+                cells: ["Defence", "Defence"]
             },
             {
                 name: "Charred Crusher",
