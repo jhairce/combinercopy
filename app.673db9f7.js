@@ -76,7 +76,14 @@
                 perks: "Conditioning",
                 cells: ["Power", "Defence"]
             },
-            {
+            {   
+		name: "Galvanic Impact",
+                type: "Hammer",
+                icon: "/assets/icons/weapons/malkarion/GalvanicImpact.png",
+                monster: "malkarion",
+                cells: ["Prismatic", "Prismatic"]
+	    },
+		    {
                 name: "Charred Crusher",
                 type: "Hammer",
                 icon: "/assets/icons/weapons/charrogg/CharredCrusher.png",
