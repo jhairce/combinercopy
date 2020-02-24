@@ -47,7 +47,7 @@
     e.exports = {
         weapons: {
             Hammer: [{
-                name: "Brutality of Boreus",
+                name: "Brutality of ",
                 type: "Hammer",
                 icon: "/assets/icons/weapons/boreus/BrutalityOfBoreus.png",
                 monster: "boreus",
