@@ -6708,7 +6708,7 @@
         },
         Weapons:
         {
-            1: "Brutality of reus",
+            1: "Brutality of Boreus",
             2: "Destiny of Boreus",
             3: "Onus of Boreus",
             4: "Revolution of Boreus",
